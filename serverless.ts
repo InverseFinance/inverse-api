@@ -1,7 +1,7 @@
 import type { AWS } from "@serverless/typescript";
 
 const serverlessConfiguration: AWS = {
-  service: "inverse-api",
+  service: "api",
   frameworkVersion: "2",
   custom: {
     webpack: {
