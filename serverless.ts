@@ -19,7 +19,7 @@ const serverlessConfiguration: AWS = {
     },
     environment: {
       AWS_NODEJS_CONNECTION_REUSE_ENABLED: "1",
-      INFURA_ID: "",
+      INFURA_ID: "${env:INFURA_ID}",
       COINGECKO_PRICE_API: "https://api.coingecko.com/api/v3/simple/price",
     },
     lambdaHashingVersion: "20201221",
